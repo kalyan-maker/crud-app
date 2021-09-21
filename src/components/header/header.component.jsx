@@ -1,16 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./orange.jpg";
+
 import "./header.styles.css";
 
 const Header = () => (
   <div className="header">
-    <Link to="/">
-      <img className="logo-container" src={logo} alt="logo" />
-    </Link>
-
     <div className="AppName">
-      The Orange App
+      The Crud App
     </div>
 
     <div className="options">
